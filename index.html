@@ -9,8 +9,11 @@
 <body >
     <div class="flex items-center justify-center mt-5">
         <div class="w-[400px]">
-            <div class="flex justify-between pr-5">
-                <input id="color-picker" type="color">
+            <div class="flex justify-between pr-5 pb-3">
+                <div class="flex">
+                    <p class="pr-2">Color:</p>
+                    <input id="color-picker"  type="color">
+                </div>
                 <select id="scheme" name="scheme">
                     <option value="monochrome">Monochrome</option>
                     <option value="monochrome-dark">Monochrome Dark</option>
@@ -23,9 +26,9 @@
                 </select>
             </div>
             <div class="flex justify-center">
-                <button id="get-colors" class="">Get Colors</button>
+                <button id="get-colors" class="bg-blue-400 border rounded py-1 px-6">Get Colors</button>
             </div>
-            <div id="colors-display" class="flex"></div>
+            <div id="colors-display" class="flex pt-4"></div>
         </div>
     </div>
     
