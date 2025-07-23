@@ -24,7 +24,7 @@ function render(colors){
     colors.forEach(color =>{
         html += `
           <div>
-             <div class="py-8 px-4" style="background-color: ${color};"></div>
+             <div class="py-24 px-8" style="background-color: ${color};"></div>
           </div>
         `
     })
