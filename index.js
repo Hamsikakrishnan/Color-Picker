@@ -23,8 +23,11 @@ function render(colors){
     let html = ``
     colors.forEach(color =>{
         html += `
-          <div>
-             <div class="py-24 px-8" style="background-color: ${color};"></div>
+          <div style="background-color: ${color};">
+             <div class="py-40 px-8" ></div>
+             <div class="text-white text-sm flex justify-center pb-2">
+                 <p>${color}</p>
+             </div>
           </div>
         `
     })

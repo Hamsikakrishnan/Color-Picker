@@ -6,21 +6,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Color Picker</title>   
 </head>
-<body>
-    <div class="flex items-center justify-center">
-        <div>
-            <input id="color-picker" type="color">
-            <select id="scheme" name="scheme">
-                <option value="monochrome">Monochrome</option>
-                <option value="monochrome-dark">Monochrome Dark</option>
-                <option value="monochrome-light">Monochrome Light</option>
-                <option value="analogic">Analogic</option>
-                <option value="complement">Complement</option>
-                <option value="analogic-complement">Analogic Complement</option>
-                <option value="triad">Triad</option>
-                <option value="quad">Quad</option>
-            </select>
-            <button id="get-colors">Get Colors</button>
+<body >
+    <div class="flex items-center justify-center mt-5">
+        <div class="w-[400px]">
+            <div class="flex justify-between pr-5">
+                <input id="color-picker" type="color">
+                <select id="scheme" name="scheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+            </div>
+            <div class="flex justify-center">
+                <button id="get-colors" class="">Get Colors</button>
+            </div>
             <div id="colors-display" class="flex"></div>
         </div>
     </div>
